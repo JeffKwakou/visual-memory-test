@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual memory test</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="board-area">
+        <div>
+            <div id="scoreBoard">
+                <div>
+                    <span>Level</span>
+                    <span id="level-count">1</span>
+                </div>
+    
+                <div>
+                    <span>Lives</span>
+                    <span id="lives-count">3</span>
+                </div>
+            </div>
+    
+            <div id="board-game"></div>
+        </div>
+
+        <div id="restart">
+            <button onclick="restartGame()">Restart</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
